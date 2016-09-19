@@ -1,0 +1,178 @@
+Main Alarm...
+Temperature = 0.00
+Humidity = 0.00
+ATT: 
+OKRIC: ���
+ATT: 
+OKRIC: AT
+
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: AT
+AT
+
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: AT
+
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: AT
+
+OK
+
+DB:CORRECT BR
+ATT: 
+OKRIC: AT
+
+OK
+
+ATT: 
+OKRIC: AT&F
+
+OK
+
+ATT: 
+OKRIC: ATE0
+
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
++CPMS:RIC: �
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ERROR
+
+ATT: 
++CPMS:RIC: AT+CPMS="SM","SM","SM"
+
+ATT: 
++CPMS:RIC: ��
+ATT: 
+OKRIC: 
+ATT: 
+OKRIC: AT+CPBS="SM"
+
+OK
+
+ATT: 
+SHUT OKRIC: AT+CIPSHUT
+
+SHUT OK
+
+
+status=READY
+DEBUG:SMS TEST
+ATT: 
+>RIC: ATE0
+
+OK
+
+> 
+DEBUG:>
+ATT: 
++CMGSRIC: 
+ERROR
+
+
+SMS sent OK
+Main Alarm...
+Temperature = 0.00
+Humidity = 0.00
+ATT: 
+OKRIC: 
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: 
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: 
+OK
+
+DB:ELSE
+ATT: 
+OKRIC: 
+OK
+
+DB:CORRECT BR
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: ATE0
+
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
+ATT: 
+OKRIC: 
+OK
+
